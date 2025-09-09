@@ -86,3 +86,14 @@ timm==0.9.12
 # Optional (only if you actually import these)
 scikit-learn
 matplotlib
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+streamlit==1.37.1
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+timm==0.9.16
+pillow==10.3.0
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+scikit-learn==1.4.2
