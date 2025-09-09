@@ -10,6 +10,10 @@ import numpy as np
 from PIL import Image, ImageOps
 
 import torch
+device = torch.device("cpu")
+weights = torch.load("best.pt", map_location=device)
+
+import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torchvision.transforms as T
@@ -321,4 +325,5 @@ if uploaded:
 
 st.markdown("---")
 st.caption("EVA-Tiny via timm; demo app for educational use. This interface does not provide medical advice.")
+
 
